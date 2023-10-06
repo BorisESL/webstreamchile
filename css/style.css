@@ -9,8 +9,10 @@
 
 }
 
+
+
 .hero {
-    background-image: url("../imagenes/opcion2.png");
+   
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -19,7 +21,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    border-radius: 2rem; 
+    row-gap: 2rem;
 
 }
 
@@ -124,41 +127,50 @@ justify-content: flex-end;
 }
 
 .grid {
+    min-height: 100vh;
     display: grid;
-    grid-template-columns: 400px 200px 200px;
-
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "desarrollo   app       tv"
+    "desarrollo   app     vendedor";
+    column-gap: 2rem;
+    row-gap: 2rem;
+    padding: 2rem;
+    
+    
+    
 }
 
-.s1 {
+.desarrollo {
     background-color: aquamarine;
-
+    grid-area: desarrollo;
 }
 
-.s2 {
+.app {
     background-color: beige;
-    
+    grid-area: app;
 }
 
-.s3 {
-    background-color: rgb(111, 111, 205);
-    
+.vendedor {
+    background-color: rgb(42, 42, 121);
+    grid-area: vendedor;
 }
 
-.s4 {
+.tv {
     background-color: burlywood;
-    
+    grid-area: tv;
 }
 
-.s5 {
-    background-color: rgb(219, 140, 106);
+.grid-hijo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 88px 0px 59px 0px;
+    -webkit-border-radius: 88px 0px 59px 0px;
+    -moz-border-radius: 88px 0px 59px 0px;
     
 }
-
-.s6 {
-    background-color: greenyellow;
-    
-}
-
 /******************FOOTER***************/
 
 .social {
