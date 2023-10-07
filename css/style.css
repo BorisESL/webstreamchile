@@ -11,7 +11,11 @@
 
 .carousel-inner {
     border-radius: 2rem;
+    
 }
+
+
+
 
 .hero {
    
@@ -77,6 +81,7 @@ h1 {
     margin: 30px;
     text-align: center;
     
+    
 }
 
 h2 {
@@ -86,6 +91,8 @@ h2 {
     border-radius: 20px;
     text-align: center;
     font-weight: 900;
+    font-size: 3rem;
+    text-shadow: 10px 10px 10px rgb(0, 0, 0);
 }
 
 p {
@@ -94,6 +101,8 @@ p {
     margin: 30px;
     border-radius: 20px;
     font-weight: 900;
+    font-size: 1rem;
+    text-shadow: 10px 10px 10px rgb(0, 0, 0);
 }
 
 .item-lista {
