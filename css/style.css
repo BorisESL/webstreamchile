@@ -76,12 +76,8 @@ h1 {
     
 }
 
-.h2 {
+.carrusel-contenedor h2 {
     color: rgb(255, 255, 255);
-    padding: 30px;
-    margin-top: 0;
-    border-radius: 20px;
-    text-align: center;
     font-weight: 900;
     font-size: 3rem;
     text-shadow: 10px 10px 10px rgb(0, 0, 0);
@@ -90,9 +86,6 @@ h1 {
 
 p {
     color: rgb(255, 255, 255);
-    padding: 30px;
-    margin: 30px;
-    border-radius: 20px;
     font-weight: 900;
     font-size: 1rem;
     text-shadow: 10px 10px 10px rgb(0, 0, 0);
