@@ -144,6 +144,30 @@ p {
     
 }
 
+/* Estilos iniciales para los elementos de la grid, con esto comienzo para poder trabajar con mediqueries*/
+.grid-hijo {
+    padding: 20px;
+    
+}
+
+/* Cambiar el color de fondo de los elementos de la grid al llegar a 480px */
+@media (max-width: 480px) {
+    .desarrollo {
+        background-color:blue;
+    }
+    .app {
+        background-color:chartreuse;
+    }
+    .vendedor {
+        background-color: darkgreen;
+    }
+    .tv {
+        background-color:fuchsia;
+    }
+}
+
+
+
 /******************FOOTER***************/
 
 .social {
