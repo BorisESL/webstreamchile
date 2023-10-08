@@ -108,11 +108,10 @@ p {
     "desarrollo   app     vendedor";
     column-gap: 2rem;
     row-gap: 2rem;
-    padding: 2rem;
-    
-    
-    
+    padding: 2rem;    
 }
+
+
 
 .desarrollo {
     background-color: aquamarine;
@@ -150,7 +149,34 @@ p {
     
 }
 
-/* Cambiar el color de fondo de los elementos de la grid al llegar a 480px */
+
+
+.grid {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "desarrollo   app       tv"
+    "desarrollo   app     vendedor";
+    column-gap: 2rem;
+    row-gap: 2rem;
+    padding: 2rem;    
+}
+
+@media (max-width: 767px) {
+    .grid {
+        grid-template-columns: 1fr; /* Cambia a una sola columna en dispositivos móviles */
+        grid-template-rows: repeat(4, auto); /* Ajusta el alto de las filas automáticamente */
+        grid-template-areas: 
+            "desarrollo"
+            "app"
+            "tv"
+            "vendedor";
+    }
+}
+
+    /* Cambiar el color de fondo de los elementos de la grid al llegar a 480px */
 @media (max-width: 480px) {
     .desarrollo {
         background-color:blue;
@@ -165,8 +191,6 @@ p {
         background-color:fuchsia;
     }
 }
-
-
 
 /******************FOOTER***************/
 
