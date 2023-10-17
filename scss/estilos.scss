@@ -1,0 +1,440 @@
+@charset "UTF-8";
+
+/******************INICIO***************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.w-100 {
+  height: 95vh;
+}
+
+
+
+body {
+  background-color: #0f0e0e;
+}
+
+h1 {
+  color: rgba(255, 255, 255, 0.842);
+  padding: 30px;
+  margin: 30px;
+  text-align: center;
+}
+
+.carrusel-contenedor h2 {
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-size: 1, 5rem;
+  text-shadow: 10px 10px 10px rgb(0, 0, 0);
+  padding: 2rem;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+.grid {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "desarrollo   app       tv" "desarrollo   app     vendedor";
+  -moz-column-gap: 2rem;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  padding: 2rem;
+}
+
+.desarrollo {
+  background-color: aquamarine;
+  grid-area: desarrollo;
+  background-image: url(/imagenes/Copia\ de\ desapp.jpeg);
+  color: aquamarine;
+  font-weight: bold;
+}
+
+.app {
+  background-color: rgb(214, 214, 26);
+  grid-area: app;
+  background-image: url(/imagenes/appdedo.jpeg);
+  color: aqua;
+  font-weight: bold;
+}
+
+.vendedor {
+  background-color: rgb(42, 42, 121);
+  grid-area: vendedor;
+  background-image: url(/imagenes/Copia\ de\ reseller4.jpg);
+  color: aqua;
+  font-weight: bold;
+}
+
+.tv {
+  background-color: burlywood;
+  grid-area: tv;
+  background-image: url(/imagenes/tvtarjeta.jpeg);
+  color: aqua;
+  font-weight: bold;
+}
+
+.grid-hijo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 88px 0px 59px 0px;
+  font-size: 2rem;
+  
+  
+  
+}
+
+/* Estilos iniciales para los elementos de la grid, con esto comienzo para poder trabajar con mediqueries*/
+
+.grid {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "desarrollo   app       tv" "desarrollo   app     vendedor";
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+  row-gap: 2rem;
+  padding: 2rem;
+}
+
+@media (max-width: 767px) {
+  .grid {
+    grid-template-columns: 1fr; /* Cambia a una sola columna en dispositivos móviles */
+    grid-template-rows: repeat(4, auto); /* Ajusta el alto de las filas automáticamente */
+    grid-template-areas: "desarrollo" "app" "tv" "vendedor";
+  }
+}
+/* Cambiar el color de fondo de los elementos de la grid al llegar a 480px */
+@media (max-width: 480px) {
+  .desarrollo {
+    background-color: blue;
+  }
+  .app {
+    background-color: chartreuse;
+  }
+  .vendedor {
+    background-color: darkgreen;
+  }
+  .tv {
+    background-color: fuchsia;
+  }
+}
+/******************FOOTER***************/
+.social {
+  background-color: rgb(38, 164, 33);
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  padding: 1rem;
+  gap: 1rem;
+  border-radius: 60%;
+}
+
+.social-link {
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
+.social-link:hover {
+  transform: scale(1.4);
+}
+
+.pie {
+  background-color: #030f23;
+}
+
+img {
+  width: 80px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.fb {
+  
+  color: white;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+/* Agregar sombra blanca al pasar el cursor */
+.fb:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  transform: scale(1.4);
+}
+
+.tw {
+  color: white;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+/* Agregar sombra blanca al pasar el cursor */
+.tw:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  transform: scale(1.4);
+}
+
+.inta {
+  color: white;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+/* Agregar sombra blanca al pasar el cursor */
+.inta:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  transform: scale(1.4);
+}
+
+.lin {
+  color: white;
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+/* Agregar sombra blanca al pasar el cursor */
+.lin:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  transform: scale(1.4);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.parrafo {
+  margin-bottom: 0;
+}
+
+hr {
+  border: none; /* Elimina el borde predeterminado */
+  height: 3px; /* Ajusta la altura de la línea */
+  background-color: white; /* Cambia el color de fondo */
+  margin: 1rem 0; /* Agrega margen superior e inferior para separación */
+}
+
+.section {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3rem;
+}
+
+.section div {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.551);
+  padding: 0.5rem;
+}
+
+.derechos {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #030f23;
+  font-size: 1rem;
+  
+}
+
+.pfondo {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 30px 50px
+  
+}
+
+/******************QUIENES SOMOS***************/
+.volver-none {
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+  margin: 30px;
+  font-size: 1rem;
+  
+}
+
+.somos {
+  background-image: url("../imagenes/somos 1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.somos__titulo {
+  font-size: 4rem;
+  text-shadow: 10px 10px 10px rgb(248, 244, 244);
+  padding: 1rem;
+  border-radius: 2rem;
+  margin-top: -90px;
+  background-color: rgba(30, 36, 51, 0.113);
+}
+
+.container-somos {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  text-justify: auto;
+  width: 100%;
+  padding: 4rem;
+ 
+}
+
+.container-somos img {
+  width: 400px;
+  border-radius: 137px 0px 118px 0px;
+  -webkit-border-radius: 137px 0px 118px 0px;
+  -moz-border-radius: 137px 0px 118px 0px;
+  border: 24px solid #cacbc3;
+
+}
+
+/******************SERVICIOS***************/
+.servicios {
+  background-image: url("../imagenes/servi1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicios__titulo {
+  font-size: 4rem;
+  text-shadow: 10px 10px 10px rgb(247, 244, 244);
+  padding: 8rem;
+  border-radius: 2rem;
+  margin-top: -100px;
+}
+
+.servicios__botones {
+  display: flex;
+  gap: 8rem;
+  margin-top: 1rem;
+}
+
+.servicios__boton {
+  font-size: 2rem;
+  text-decoration: none;
+  background-color: hwb(21 0% 0%);
+  color: rgb(255, 255, 255);
+  padding: 1.5rem 2rem;
+  border-radius: 2rem;
+  box-shadow: 20px 20px 20px black;
+}
+
+/******************TvOnline***************/
+.tvonline {
+  background-image: url("../imagenes/tv online.jpeg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tvonline__titulo {
+  font-size: 4rem;
+  text-shadow: 10px 10px 10px rgb(249, 245, 245);
+  padding: 8rem;
+  border-radius: 2rem;
+  margin-top: -100px;
+}
+
+.tvonline__botones {
+  display: flex;
+  gap: 8rem;
+  margin-top: 1rem;
+}
+
+.tvonline__boton {
+  font-size: 2rem;
+  text-decoration: none;
+  background-color: hwb(21 0% 0%);
+  color: rgb(255, 255, 255);
+  padding: 1.5rem 2rem;
+  border-radius: 2rem;
+  box-shadow: 20px 20px 20px black;
+}
+
+/******************CONTACTO***************/
+.contacto {
+  background-image: url("../imagenes/somos 2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacto__titulo {
+  font-size: 4rem;
+  text-shadow: 10px 10px 10px rgb(255, 255, 255);
+  padding: 8rem;
+  border-radius: 2rem;
+  margin-top: -100px;
+}
+
+.contacto__botones {
+  display: flex;
+  gap: 8rem;
+  margin-top: 1rem;
+}
+
+.contacto__boton {
+  font-size: 2rem;
+  text-decoration: none;
+  background-color: hwb(21 0% 0%);
+  color: rgb(255, 255, 255);
+  padding: 1.5rem 2rem;
+  border-radius: 2rem;
+  box-shadow: 20px 20px 20px black;
+}
+
+.formulario {
+  padding: 30px;
+  margin: 30px;
+}/*# sourceMappingURL=estilos.css.map */
