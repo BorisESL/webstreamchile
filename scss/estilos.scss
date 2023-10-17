@@ -58,7 +58,7 @@ p {
 }
 
 .app {
-  background-image: url(/imagenes/appdedo.jpg);
+  background-image: url(../imagenes/appdedo.jpg);
   grid-area: app;
   
   color: aqua;
@@ -68,7 +68,7 @@ p {
 .vendedor {
   
   grid-area: vendedor;
-  background-image: url(/imagenes/copiareseller4.jpg);
+  background-image: url(../imagenes/copiareseller4.jpg);
   color: aqua;
   font-weight: bold;
 }
@@ -76,7 +76,7 @@ p {
 .tv {
   
   grid-area: tv;
-  background-image: url(/imagenes/tvtarjeta.jpg);
+  background-image: url(../imagenes/tvtarjeta.jpg);
   color: aqua;
   font-weight: bold;
 }
