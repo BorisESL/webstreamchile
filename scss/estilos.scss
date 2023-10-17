@@ -53,15 +53,14 @@ p {
 .desarrollo {
   background-image: url(/imagenes/Copia\ de\ desapp.jpeg);
   grid-area: desarrollo;
-  
   color: aquamarine;
   font-weight: bold;
 }
 
 .app {
-  
+  background-image: url(/imagenes/appdedo.png);
   grid-area: app;
-  background-image: url(/imagenes/appdedo.jpeg);
+  
   color: aqua;
   font-weight: bold;
 }
