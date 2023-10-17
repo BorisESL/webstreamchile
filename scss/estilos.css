@@ -48,8 +48,8 @@ p {
 }
 
 .desarrollo {
-  grid-area: desarrollo;
   background-image: url(/imagenes/Copia\ de\ desapp.jpeg);
+  grid-area: desarrollo;
   color: aquamarine;
   font-weight: bold;
 }
