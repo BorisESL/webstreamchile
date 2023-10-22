@@ -63,7 +63,7 @@ p {
 
 .vendedor {
   grid-area: vendedor;
-  background-image: url(../imagenes/copiareseller4.jpg);
+  background-image: url(../imagenes/reseller2.jpg);
   color: aqua;
   font-weight: bold;
 }
@@ -81,19 +81,6 @@ p {
   align-items: center;
   border-radius: 88px 0px 59px 0px;
   font-size: 2rem;
-}
-
-/* Estilos iniciales para los elementos de la grid, con esto comienzo para poder trabajar con mediqueries*/
-.grid {
-  min-height: 100vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "desarrollo   app       tv" "desarrollo   app     vendedor";
-  -moz-column-gap: 2rem;
-  column-gap: 2rem;
-  row-gap: 2rem;
-  padding: 2rem;
 }
 
 @media (max-width: 767px) {
@@ -318,7 +305,7 @@ a {
   border-radius: 137px 0px 118px 0px;
   -webkit-border-radius: 137px 0px 118px 0px;
   -moz-border-radius: 137px 0px 118px 0px;
-  border: 24px solid #cacbc3;
+  border: 1rem solid #cacbc3;
 }
 
 /******************SERVICIOS***************/
