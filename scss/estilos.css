@@ -70,7 +70,7 @@ p {
 
 .tv {
   grid-area: tv;
-  background-image: url(../imagenes/tvtarjeta.jpg);
+  background-image: url(../imagenes/Copiadetvtarjeta.jpg);
   color: aqua;
   font-weight: bold;
 }
@@ -441,6 +441,16 @@ main {
 .card .front i {
   font-size: 2rem; /* Ajusta el tamaño del ícono según tus preferencias */
   color: #ffffff; /* Ajusta el color del ícono según tus preferencias */
+}
+
+.icono {
+  display: flex;
+  width: 120px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: solid rgb(165, 49, 84);
 }
 
 .card .back {
