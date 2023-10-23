@@ -59,6 +59,9 @@ p {
   grid-area: app;
   color: aqua;
   font-weight: bold;
+  background-size: cover; /* Ajusta el tamaño de la imagen al contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center center; /* Centra la imagen horizontal y verticalmente */
 }
 
 .vendedor {
@@ -67,6 +70,8 @@ p {
   background-size: cover;
   color: aqua;
   font-weight: bold;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .tv {
@@ -75,6 +80,8 @@ p {
   background-size: cover;
   color: aqua;
   font-weight: bold;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .grid-hijo {
