@@ -67,14 +67,16 @@ p {
   background-size: cover;
   color: aqua;
   font-weight: bold;
+  background-size: cover;
 }
 
 .tv {
   grid-area: tv;
-  background-image: url(../imagenes/tvtarjeta1.jpg);
+  background-image: url(../imagenes/tvfondo.jpg);
   background-size: cover;
   color: aqua;
   font-weight: bold;
+  background-size: cover;
 }
 
 .grid-hijo {
@@ -362,7 +364,7 @@ a {
 
 /******************TvOnline***************/
 .tvonline {
-  background-image: url("../imagenes/tv.jpg");
+  background-image: url("../imagenes/tvfondo.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
