@@ -387,7 +387,7 @@ a {
 
 /******************TvOnline***************/
 .tvonline {
-  background-image: url("../imagenes/tv online.jpeg");
+  background-image: url("../imagenes/tv.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -513,6 +513,7 @@ text-align: center
   top: 50%; /* Centra verticalmente el contenedor del ícono */
   left: 50%; /* Centra horizontalmente el contenedor del ícono */
   transform: translate(-50%, -50%); /* Ajusta la posición al centro */
+ 
 }
 
 .card .back {
