@@ -64,13 +64,15 @@ p {
 .vendedor {
   grid-area: vendedor;
   background-image: url(../imagenes/reseller2.jpg);
+  background-size: cover;
   color: aqua;
   font-weight: bold;
 }
 
 .tv {
   grid-area: tv;
-  background-image: url(../imagenes/Copiadetvtarjeta.jpg);
+  background-image: url(../imagenes/tvtarjeta1.jpg);
+  background-size: cover;
   color: aqua;
   font-weight: bold;
 }
@@ -295,7 +297,6 @@ a {
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
-  text-justify: auto;
   width: 100%;
   padding: 4rem;
 }
@@ -308,6 +309,20 @@ a {
   border: 1rem solid #cacbc3;
 }
 
+@media (max-width: 768px) {
+  .container-somos {
+    flex-direction: column;
+    text-align: center;
+  }
+  .container-somos img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 2rem;
+  }
+  .somos__titulo {
+    font-size: 2rem;
+  }
+}
 /******************SERVICIOS***************/
 .servicios {
   background-image: url("../imagenes/servi1.jpg");
@@ -369,17 +384,20 @@ a {
 .tvonline__botones {
   display: flex;
   gap: 8rem;
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
-.tvonline__boton {
+.planes p {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
   font-size: 2rem;
-  text-decoration: none;
-  background-color: hwb(21 0% 0%);
-  color: rgb(255, 255, 255);
-  padding: 1.5rem 2rem;
-  border-radius: 2rem;
-  box-shadow: 20px 20px 20px black;
+  color: #19b0e3;
+}
+
+.texto-tv {
+  display: flex;
+  text-align: center;
 }
 
 main {
@@ -433,14 +451,17 @@ main {
 }
 
 .card .front h4 {
-  padding: 4rem;
   color: #fff;
   text-align: center;
 }
 
 .card .front i {
-  font-size: 2rem; /* Ajusta el tamaño del ícono según tus preferencias */
+  font-size: 4rem; /* Ajusta el tamaño del ícono según tus preferencias */
   color: #ffffff; /* Ajusta el color del ícono según tus preferencias */
+  position: absolute;
+  top: 50%; /* Centra verticalmente el ícono */
+  left: 50%; /* Centra horizontalmente el ícono */
+  transform: translate(-50%, -50%); /* Ajusta la posición al centro */
 }
 
 .icono {
@@ -450,7 +471,11 @@ main {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  border: solid rgb(165, 49, 84);
+  border: solid rgb(198, 41, 86);
+  position: absolute;
+  top: 50%; /* Centra verticalmente el contenedor del ícono */
+  left: 50%; /* Centra horizontalmente el contenedor del ícono */
+  transform: translate(-50%, -50%); /* Ajusta la posición al centro */
 }
 
 .card .back {
