@@ -57,6 +57,7 @@ p {
   grid-area: desarrollo;
   color: aquamarine;
   font-weight: bold;
+  background-size: cover;
 }
 
 .app {
@@ -100,6 +101,12 @@ p {
   border-radius: 88px 0px 59px 0px;
   font-size: 2rem;
   
+}
+
+@media (min-width: 1200px) {
+  .grid {
+      background-size: contain;
+  }
 }
 
 @media (max-width: 767px) {
