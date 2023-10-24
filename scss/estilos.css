@@ -93,11 +93,6 @@ p {
   font-size: 2rem;
 }
 
-@media (min-width: 1200px) {
-  .grid {
-    background-size: contain;
-  }
-}
 @media (max-width: 767px) {
   .grid {
     grid-template-columns: 1fr; /* Cambia a una sola columna en dispositivos móviles */

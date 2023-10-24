@@ -103,11 +103,6 @@ p {
   
 }
 
-@media (min-width: 1200px) {
-  .grid {
-      background-size: contain;
-  }
-}
 
 @media (max-width: 767px) {
   .grid {
@@ -309,7 +304,7 @@ a {
   background-image: url("../imagenes/somos 1.jpg");
   background-size: cover;
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; 
   height: 90vh;
   display: flex;
   flex-direction: column;
