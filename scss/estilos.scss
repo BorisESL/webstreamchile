@@ -110,6 +110,10 @@ p {
     grid-template-rows: repeat(4, auto); /* Ajusta el alto de las filas automáticamente */
     grid-template-areas: "desarrollo" "app" "tv" "vendedor";
   }
+  .main {
+    display: flex;
+    flex-direction: column;
+}
 }
 /* Cambiar el color de fondo de los elementos de la grid al llegar a 480px */
 @media (max-width: 480px) {
@@ -443,13 +447,16 @@ main {
   background-color: #0f0e0e;
   padding: 1rem;
   gap: 1rem;
+  
 }
+
 
 .card {
 position: relative;
 background-color: #0f0e0e;
 width: 300px;
 height: 350px;
+margin: 10px;
 
 
 }
@@ -502,7 +509,7 @@ text-align: center
 }
 
 .card .front i {
-  font-size: 4rem; /* Ajusta el tamaño del ícono según tus preferencias */
+  font-size: 5rem; /* Ajusta el tamaño del ícono según tus preferencias */
   color: #ffffff; /* Ajusta el color del ícono según tus preferencias */
   position: absolute;
   top: 50%; /* Centra verticalmente el ícono */
@@ -519,11 +526,11 @@ text-align: center
   align-items: center;
   border-radius: 50%;
   border: solid rgb(198, 41, 86);
-  position: absolute;
   top: 50%; /* Centra verticalmente el contenedor del ícono */
   left: 50%; /* Centra horizontalmente el contenedor del ícono */
   transform: translate(-50%, -50%); /* Ajusta la posición al centro */
- 
+ margin-left: 50%;
+ margin-top: 60px;
 }
 
 .card .back {
@@ -553,7 +560,16 @@ transform: perspective(600px) rotateY(180deg);
 .card:hover .back{
   transform: perspective(600px) rotateY(360deg);
   }
+
+  @media only screen and (max-width: 768px) {
+    .main {
+      display: flex;
+      flex-direction: column;
+ }
+  }
+
 /******************CONTACTO***************/
+
 .contacto {
   background-image: url("../imagenes/somos 2.jpg");
   background-size: cover;
@@ -574,23 +590,82 @@ transform: perspective(600px) rotateY(180deg);
   margin-top: -100px;
 }
 
-.contacto__botones {
+
+
+main {
+  padding: 2rem;
+  min-height: 60vh;
   display: flex;
-  gap: 8rem;
-  margin-top: 1rem;
+  align-items: center;
+  justify-content: center;
+
 }
 
-.contacto__boton {
-  font-size: 2rem;
-  text-decoration: none;
-  background-color: hwb(21 0% 0%);
-  color: rgb(255, 255, 255);
-  padding: 1.5rem 2rem;
+form {
+  padding: 50px 55px;
+  box-shadow: 0 0 10px 10px #ddd3d3;
   border-radius: 2rem;
-  box-shadow: 20px 20px 20px black;
+  text-align: center;
+  width: 900px;
+  background-color: #272b42;
 }
 
-.formulario {
-  padding: 30px;
-  margin: 30px;
-}/*# sourceMappingURL=estilos.css.map */
+form h2 {
+  color: rgb(200, 200, 225);
+  font-size: 2rem;
+}
+
+.form-txt {
+  display: flex;
+  justify-content: center;
+
+}
+
+.form-txt a {
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+.form-txt a:hover {
+  color: brown;
+}
+
+.input-gorup {
+  display: flex;
+  flex-direction: column;
+
+}
+
+input , textarea {
+  background-color:rgb(71, 68, 74);
+  padding: 20px 14px;
+  margin-bottom: 25px;
+  border: 0;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #ffffff;
+}
+
+::placeholder {
+  color: #696f77;
+  font-size: 15px;
+}
+
+:focus {
+  outline: 1px solid #19b0e3;
+}
+
+.btn {
+  background-color: darkcyan;
+  color: #1c1e1f;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+@media(max-width:780px) {
+  main {
+    padding: 30px;
+  }
+  form {
+    width: 100%
+  }
+}
