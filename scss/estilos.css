@@ -388,7 +388,6 @@ a {
 .tvonline__titulo {
   font-size: 4rem;
   text-shadow: 10px 10px 10px rgb(194, 194, 186);
-  padding: 8rem;
   border-radius: 2rem;
   margin-top: -100px;
 }
@@ -547,9 +546,9 @@ hr {
   margin-top: -100px;
 }
 
-main {
-  padding: 2rem;
-  min-height: 60vh;
+.formulario {
+  padding: 4rem;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -621,9 +620,8 @@ input, textarea {
 
 @media (max-width: 780px) {
   main {
-    padding: 30px;
-  }
-  form {
-    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 }/*# sourceMappingURL=estilos.css.map */
