@@ -19,11 +19,16 @@ body {
 
 
 h1 {
-  color: rgba(255, 255, 255, 0.842);
-  padding: 30px;
-  margin: 30px;
-  text-align: center;
+  color: #ffffff;
+  
+  padding: 1rem;
+  border-radius: 2rem;
+  margin-top: -95%;
+  font-weight: 900;
+
 }
+
+
 
 .carrusel-contenedor h2 {
   color: rgb(255, 255, 255);
@@ -253,6 +258,7 @@ hr {
 
 h2 {
   color: rgb(255, 255, 255);
+  
 }
 
 a {
@@ -295,14 +301,6 @@ a {
 
 
 /******************QUIENES SOMOS***************/
-.volver-none {
-  text-decoration: none;
-  color: white;
-  padding: 30px;
-  margin: 30px;
-  font-size: 1rem;
-  
-}
 
 .somos {
   background-image: url("../imagenes/somos 1.jpg");
@@ -318,11 +316,10 @@ a {
 
 .somos__titulo {
   font-size: 4rem;
-  text-shadow: 10px 10px 10px rgb(248, 244, 244);
   padding: 1rem;
   border-radius: 2rem;
   margin-top: -90px;
-  background-color: rgba(30, 36, 51, 0.113);
+  
 }
 
 .container-somos {
@@ -341,7 +338,7 @@ a {
   border-radius: 137px 0px 118px 0px;
   -webkit-border-radius: 137px 0px 118px 0px;
   -moz-border-radius: 137px 0px 118px 0px;
-  border: 1rem solid #cacbc3;
+  border: 1rem solid #c3c5cb;
 
 }
 	
@@ -376,7 +373,7 @@ a {
 
 .servicios__titulo {
   font-size: 4rem;
-  text-shadow: 10px 10px 10px rgb(247, 244, 244);
+ 
   padding: 8rem;
   border-radius: 2rem;
   margin-top: -100px;
@@ -414,7 +411,7 @@ a {
 
 .tvonline__titulo {
   font-size: 4rem;
-  text-shadow: 10px 10px 10px rgb(194, 194, 186);
+
  
   border-radius: 2rem;
   margin-top: -100px;
@@ -584,10 +581,10 @@ transform: perspective(600px) rotateY(180deg);
 
 .contacto__titulo {
   font-size: 4rem;
-  text-shadow: 10px 10px 10px rgb(255, 255, 255);
- 
+  
   border-radius: 2rem;
   margin-top: -100px;
+  
 }
 
 
@@ -613,6 +610,7 @@ form {
 form h2 {
   color: rgb(200, 200, 225);
   font-size: 2rem;
+  
 }
 
 .form-txt {
