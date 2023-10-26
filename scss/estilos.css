@@ -328,7 +328,7 @@ a {
 }
 /******************SERVICIOS***************/
 .servicios {
-  background-image: url("../imagenes/servi1.jpg");
+  background-image: url("../imagenes/fotoserv.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -346,20 +346,11 @@ a {
   margin-top: -100px;
 }
 
-.servicios__botones {
-  display: flex;
-  gap: 8rem;
-  margin-top: 1rem;
-}
-
-.servicios__boton {
-  font-size: 2rem;
-  text-decoration: none;
-  background-color: hwb(21 0% 0%);
-  color: rgb(255, 255, 255);
-  padding: 1.5rem 2rem;
-  border-radius: 2rem;
-  box-shadow: 20px 20px 20px black;
+.servicard {
+  border-color: #fff;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
 }
 
 /******************TvOnline***************/
