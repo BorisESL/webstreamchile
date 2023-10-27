@@ -347,10 +347,23 @@ a {
 }
 
 .servicard {
-  border-color: #fff;
-  flex-direction: column;
-  gap: 2rem;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px; /* Ajusta el valor máximo según tus necesidades */
+}
+
+.cards {
+  width: 30%; /* Aproximadamente el 30% para que tres tarjetas encajen en una fila */
+  margin: 1%;
+}
+
+.servparrafo {
+  text-align: center;
+  width: 100%;
 }
 
 /******************TvOnline***************/
