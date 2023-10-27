@@ -373,7 +373,6 @@ a {
 
 .servicios__titulo {
   font-size: 4rem;
-  padding: 8rem;
   border-radius: 2rem;
   margin-top: -100px;
 }
@@ -383,24 +382,47 @@ a {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin: 0 auto;
-  width: 95%;
+  width: 100%;
+  padding: 2rem;
   
- 
+}
+
+.servicard img {
+ border-radius: 2rem;
 }
 
 .cards {
-  width: 100%; /* Aproximadamente el 30% para que tres tarjetas encajen en una fila */
+  padding: 2rem;
+  
+}
+
  
+.card-title {
+  text-align: center;
+  background-color: #1997ad;
+  border-radius: 1rem;
+  margin-bottom: 10px; /* Agregar espacio entre el título y la imagen */
+  margin-top: 1.5rem; /* Agregar espacio entre el título y el contenido de la tarjeta */
 }
 
 .servparrafo {
-  text-align: center;
+  text-align: center; /* Alinea el texto al centro */
   width: 100%;
+
 }
 
- 
+.card {
+  height: 100%; /* Ajustar la altura de las tarjetas al 100% */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Colocar el título y el texto en el espacio disponible */
+}
 
+.card-img-top {
+  max-height: 450px; /* Establecer la altura máxima de las imágenes (ajusta según tus necesidades) */
+  width: 100%;
+  object-fit: cover; /* Ajustar la imagen para llenar el espacio disponible */
+}
 
 
 
