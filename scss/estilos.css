@@ -352,13 +352,11 @@ a {
   align-items: center;
   flex-wrap: wrap;
   margin: 0 auto;
-  width: 90%;
-  max-width: 1200px; /* Ajusta el valor máximo según tus necesidades */
+  width: 95%;
 }
 
 .cards {
-  width: 30%; /* Aproximadamente el 30% para que tres tarjetas encajen en una fila */
-  margin: 1%;
+  width: 100%; /* Aproximadamente el 30% para que tres tarjetas encajen en una fila */
 }
 
 .servparrafo {
