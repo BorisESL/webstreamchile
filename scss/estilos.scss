@@ -19,13 +19,10 @@ body {
 
 
 h1 {
-  color: #ffffff;
-  
+  color: #ffffff; 
   padding: 1rem;
-  border-radius: 2rem;
-  margin-top: -95%;
   font-weight: 900;
-
+  
 }
 
 
@@ -282,7 +279,7 @@ a {
   justify-content: space-between;
   font-size: 1rem;
   font-weight: 400;
-  margin: 30px 50px
+  
   
 }
 
@@ -441,10 +438,8 @@ a {
 
 .tvonline__titulo {
   font-size: 4rem;
-
- 
   border-radius: 2rem;
-  margin-top: -100px;
+  
 }
 
 .tvonline__botones {
@@ -665,10 +660,17 @@ hr {
  }
   }
 
+  @media only screen and (max-width: 780) {
+    .tabla {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+   
 /******************CONTACTO***************/
 
 .contacto {
-  background-image: url("../imagenes/somos 2.jpg");
+  background-image: url("../imagenes/llamada.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
