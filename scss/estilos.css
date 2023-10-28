@@ -372,6 +372,10 @@ a {
   width: 100%;
 }
 
+.servparrafo p {
+  font-size: 2rem;
+}
+
 .card {
   height: 100%; /* Ajustar la altura de las tarjetas al 100% */
   display: flex;
@@ -609,7 +613,7 @@ hr {
 @media (max-width: 641px) {
   .tabla {
     width: 100%;
-    margin: 10px 0;
+    margin: 10px 10;
   }
 }
 /******************CONTACTO***************/
