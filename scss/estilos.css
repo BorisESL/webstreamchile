@@ -535,25 +535,30 @@ hr {
   transform: perspective(600px) rotateY(360deg);
 }
 
+/* Tu código CSS existente */
 .valores {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between; /* Cambiado de center a space-between */
   gap: 2rem;
-  margin-bottom: 4rem; /* Ajusta la cantidad según tus necesidades */
+  margin: 0 auto; /* Añadido para centrar las tarjetas */
+  max-width: 1200px; /* Añadido para limitar el ancho máximo */
+  padding: 0 0 4rem;
 }
 
 .tabla {
-  height: 550px;
-  margin: auto;
+  height: auto;
+  margin: 10px;
   border: 4px solid #d9dee0;
   border-radius: 1rem;
   box-shadow: 0px 0px 4px 0px #13add3;
-  padding: 60px;
+  padding: 2rem;
   text-align: center;
-  flex-grow: 1;
   color: #ffffff;
   background-color: #021520;
+  flex-grow: 1;
+  width: calc(33.33% - 20px); /* Añadido para controlar el ancho */
+  box-sizing: border-box; /* Añadido para incluir el relleno en el ancho */
 }
 
 .tabla img {
@@ -598,7 +603,7 @@ hr {
 
 .resellerp {
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 @media only screen and (max-width: 768px) {
