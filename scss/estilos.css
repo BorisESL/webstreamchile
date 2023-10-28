@@ -591,6 +591,7 @@ hr {
   text-align: center;
   font-size: 20px;
   margin: auto;
+  border: solid rgb(0, 0, 0);
 }
 
 .tabla:hover {
