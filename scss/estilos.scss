@@ -606,6 +606,7 @@ hr {
   flex-grow: 1;
   width: calc(33.33% - 20px); /* Añadido para controlar el ancho */
   box-sizing: border-box; /* Añadido para incluir el relleno en el ancho */
+  margin-bottom: 20px;
 }
 
 
@@ -710,7 +711,7 @@ form {
   border-radius: 2rem;
   text-align: center;
   width: 80%;
-  background-color: #272b42;
+  background-color: #000000;
 }
 
 form h2 {
@@ -759,8 +760,8 @@ input , textarea {
 }
 
 .btn {
-  background-color: darkcyan;
-  color: #1c1e1f;
+  background-color: rgb(19, 20, 23);
+  color: #aebbc2;
   font-size: 17px;
   cursor: pointer;
 }
