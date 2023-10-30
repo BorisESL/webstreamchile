@@ -125,6 +125,7 @@ main {
   background-color: #0f0e0e;
   padding: 1rem;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 
 /******************Contacto***************/
@@ -592,21 +593,12 @@ hr {
   font-weight: 400;
 }
 
-@media (max-width: 781px) {
-  .desarrollo {
-    background-color: blue;
-  }
-  .app {
-    background-color: chartreuse;
-  }
-  .vendedor {
-    background-color: darkgreen;
-  }
-  .tv {
-    background-color: fuchsia;
+@media only screen and (max-width: 768px) {
+  .valores .tabla {
+    width: 100%;
   }
 }
-@media (max-width: 781px) {
+@media only screen and (max-width: 768px) and (max-width: 781px) {
   .derechos {
     flex-direction: column;
     margin: 0;
@@ -617,13 +609,13 @@ hr {
     text-align: center;
   }
 }
-@media (max-width: 642px) {
+@media only screen and (max-width: 768px) and (max-width: 642px) {
   .tabla {
     width: 100%;
     margin: 10px 10;
   }
 }
-@media (max-width: 480px) {
+@media only screen and (max-width: 768px) and (max-width: 480px) {
   .grid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, auto);
@@ -634,7 +626,7 @@ hr {
     flex-direction: column;
   }
 }
-@media (max-width: 481px) {
+@media only screen and (max-width: 768px) and (max-width: 481px) {
   .container-somos {
     flex-direction: column;
     text-align: center;
@@ -648,7 +640,7 @@ hr {
     font-size: 2rem;
   }
 }
-@media (max-width: 400px) {
+@media only screen and (max-width: 768px) and (max-width: 400px) {
   main {
     flex-wrap: wrap;
     justify-content: center;
