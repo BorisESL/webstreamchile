@@ -1,0 +1,58 @@
+.grid {
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "desarrollo app tv" "desarrollo app vendedor";
+    -moz-column-gap: 2rem;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    padding: 2rem;
+  
+    .desarrollo {
+      background-image: url(../imagenes/copiadesapp.jpg);
+      grid-area: desarrollo;
+      color: aquamarine;
+      font-weight: bold;
+      background-size: cover;
+    }
+  
+    .app {
+      background-image: url(../imagenes/appdedo.jpg);
+      grid-area: app;
+      color: aqua;
+      font-weight: bold;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  
+    .vendedor {
+      grid-area: vendedor;
+      background-image: url(../imagenes/reseller12.png);
+      background-size: cover;
+      color: aqua;
+      font-weight: bold;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  
+    .tv {
+      grid-area: tv;
+      background-image: url(../imagenes/tvfondo.png);
+      background-size: cover;
+      color: aqua;
+      font-weight: bold;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+  
+    .grid-hijo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 88px 0px 59px 0px;
+      font-size: 2rem;
+    }
+  }
+  

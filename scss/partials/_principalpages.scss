@@ -1,0 +1,159 @@
+/*********Inicio********/
+
+.w-100 {
+    height: 95vh;
+  }
+  
+  body {
+    background-color: #0f0e0e;
+  
+    h1 {
+      color: $colorsecundario;
+      padding: 1rem;
+      font-weight: 900;
+    }
+  
+    .carrusel-contenedor {
+      h2 {
+        color: $colorsecundario;
+        font-weight: 900;
+        font-size: 1.5rem; /* Corregido: cambia la coma a punto para el valor de font-size */
+        text-shadow: 10px 10px 10px rgb(0, 0, 0);
+        padding: 2rem;
+      }
+    }
+  
+    p {
+      color: #ffffff;
+      font-weight: 900;
+      font-size: 1rem;
+    }
+  }
+
+  /************Somos************/
+
+  .somos {
+    background-image: url("../imagenes/somos 1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    &__titulo {
+      font-size: 4rem;
+      padding: 1rem;
+      border-radius: 2rem;
+      margin-top: -90px;
+      color: $colorsecundario;
+
+    }
+    
+  }
+  
+  .container-somos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    padding: 4rem;
+
+    h2 {
+      color: $colorsecundario;
+    }
+  
+    img {
+      width: 400px;
+      border-radius: 137px 0px 118px 0px;
+      -webkit-border-radius: 137px 0px 118px 0px;
+      -moz-border-radius: 137px 0px 118px 0px;
+      border: 1rem solid #c3c5cb;
+    }
+  }
+
+  /*******************Servicio***************/
+
+  .servicios {
+    background-image: url("../imagenes/fotoserv.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    &__titulo {
+      font-size: 4rem;
+      border-radius: 2rem;
+      margin-top: -100px;
+    }
+  }
+
+  /*********************Tv Online********************/
+
+  .tvonline {
+    background-image: url("../imagenes/tvfondo.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    &__titulo {
+      font-size: 4rem;
+      border-radius: 2rem;
+    }
+  }
+    .planes p {
+      display: flex;
+      justify-content: center;
+      padding: 2rem;
+      font-size: 2rem;
+      color: $colorprincipal;
+    }
+  
+    .texto-tv {
+      display: flex;
+      text-align: center;
+    }
+  
+  
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    background-color: #0f0e0e;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  /******************Contacto***************/
+
+  .contacto {
+    background-image: url("../imagenes/llamada.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    &__titulo {
+      font-size: 4rem;
+      border-radius: 2rem;
+      margin-top: -100px;
+    }
+  }
+  
