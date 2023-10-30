@@ -245,7 +245,8 @@ main {
 .card {
   position: relative;
   background-color: #0f0e0e;
-  width: 300px;
+  width: 100%;
+  max-width: 200px;
   height: 350px;
   margin: 10px;
 }
@@ -402,6 +403,7 @@ hr {
   font-size: 20px;
   margin: auto;
   border: solid rgb(0, 0, 0);
+  margin-top: auto;
 }
 .valores .tabla:hover {
   background-color: #13add3;
