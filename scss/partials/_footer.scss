@@ -12,7 +12,7 @@
   }
 
   .fb {
-    color: white;
+    color: $colorsecundario;
     margin-right: 10px;
     font-size: 1.5rem;
 
@@ -23,7 +23,7 @@
   }
 
   .tw {
-    color: white;
+    color: $colorsecundario;
     margin-right: 10px;
     font-size: 1.5rem;
 
@@ -34,7 +34,7 @@
   }
 
   .inta {
-    color: white;
+    color: $colorsecundario;
     margin-right: 10px;
     font-size: 1.5rem;
 
@@ -45,7 +45,7 @@
   }
 
   .lin {
-    color: white;
+    color: $colorsecundario;
     margin-right: 10px;
     font-size: 1.5rem;
 
@@ -68,7 +68,7 @@
   hr {
     border: none;
     height: 3px;
-    background-color: white;
+    background-color: $colorsecundario;
     margin: 1rem 0;
   }
 
@@ -82,7 +82,7 @@
       flex-direction: column;
 
       h2 {
-        color: rgb(255, 255, 255);
+        color: $colorsecundario;
       }
 
       a {
@@ -110,7 +110,7 @@
 
     .social-link {
       font-size: 2rem;
-      color: rgb(255, 255, 255);
+      color: $colorsecundario;
       transition: 0.5s;
 
       &:hover {

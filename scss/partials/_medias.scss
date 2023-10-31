@@ -39,7 +39,7 @@
     }
   }
   
-  @media (max-width: 481px) {
+  @media (max-width: 900px) {
     .container-somos {
       flex-direction: column;
       text-align: center;
@@ -48,6 +48,7 @@
         width: 90%;
         max-width: 300px;
         margin-top: 2rem;
+       
       }
     }
   
