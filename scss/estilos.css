@@ -20,14 +20,14 @@ body h1 {
 body .carrusel-contenedor h2 {
   color: #ffffff;
   font-weight: 900;
-  font-size: 1.5rem; /* Corregido: cambia la coma a punto para el valor de font-size */
+  font-size: 2rem; /* Corregido: cambia la coma a punto para el valor de font-size */
   text-shadow: 10px 10px 10px rgb(0, 0, 0);
   padding: 2rem;
 }
 body p {
   color: #ffffff;
   font-weight: 900;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 /************Somos************/
@@ -51,23 +51,28 @@ body p {
 }
 
 .container-somos {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 2rem;
   width: 100%;
   padding: 4rem;
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr;
 }
 .container-somos h2 {
   color: #ffffff;
+  background: rgba(255, 255, 255, 0.25);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border: 1.5px solid rgba(209, 213, 219, 0.3);
+  border-radius: 1rem;
+  padding: 1rem;
 }
 .container-somos img {
   width: 400px;
-  border-radius: 137px 0px 118px 0px;
-  -webkit-border-radius: 137px 0px 118px 0px;
-  -moz-border-radius: 137px 0px 118px 0px;
-  border: 1rem solid #ffffff;
+  border-radius: 1rem;
   flex-wrap: wrap;
+  max-width: 100%;
 }
 
 /*******************Servicio***************/
@@ -632,6 +637,7 @@ hr {
   .container-somos {
     flex-direction: column;
     text-align: center;
+    display: flex;
   }
   .container-somos .container-somos img {
     width: 90%;
