@@ -17,6 +17,15 @@ body h1 {
   padding: 1rem;
   font-weight: 900;
 }
+body .carrusel-contenedor .carousel-item {
+  position: relative;
+}
+body .carrusel-contenedor .carousel-item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
 body .carrusel-contenedor h2 {
   color: #ffffff;
   font-weight: 900;
