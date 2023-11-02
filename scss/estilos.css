@@ -16,6 +16,7 @@ body h1 {
   color: #ffffff;
   padding: 1rem;
   font-weight: 900;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 body .carrusel-contenedor .carousel-item {
   position: relative;
@@ -24,7 +25,7 @@ body .carrusel-contenedor .carousel-item::before {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 body .carrusel-contenedor h2 {
   color: #ffffff;
@@ -178,6 +179,7 @@ main {
   color: aquamarine;
   font-weight: bold;
   background-size: cover;
+  text-decoration: none;
 }
 .grid .app {
   background-image: url(../imagenes/appdedo.jpg);
@@ -187,6 +189,7 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  text-decoration: none;
 }
 .grid .vendedor {
   grid-area: vendedor;
@@ -196,6 +199,7 @@ main {
   font-weight: bold;
   background-repeat: no-repeat;
   background-position: center center;
+  text-decoration: none;
 }
 .grid .tv {
   grid-area: tv;
@@ -205,6 +209,7 @@ main {
   font-weight: bold;
   background-repeat: no-repeat;
   background-position: center center;
+  text-decoration: none;
 }
 .grid .grid-hijo {
   display: flex;
