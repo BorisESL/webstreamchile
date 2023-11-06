@@ -107,7 +107,7 @@ body p {
 
 /*********************Tv Online********************/
 .tvonline {
-  background-image: url("../imagenes/tvfondo.png");
+  background-image: url("../imagenes/tvfondo.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -149,7 +149,7 @@ main {
 
 /******************Contacto***************/
 .contacto {
-  background-image: url("../imagenes/llamada.jpg");
+  background-image: url("../imagenes/llamada.webp");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -198,7 +198,7 @@ main {
 }
 .grid .vendedor {
   grid-area: vendedor;
-  background-image: url(../imagenes/reseller12.png);
+  background-image: url(../imagenes/reseller12.webp);
   background-size: cover;
   color: aqua;
   font-weight: bold;
@@ -209,7 +209,7 @@ main {
 }
 .grid .tv {
   grid-area: tv;
-  background-image: url(../imagenes/tvfondo.png);
+  background-image: url(../imagenes/tvfondo.webp);
   background-size: cover;
   color: aqua;
   font-weight: bold;
