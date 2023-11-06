@@ -5,8 +5,9 @@
 }
 
 /*********Inicio********/
-.w-100 {
-  height: 95vh;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 body {
@@ -21,6 +22,10 @@ body h1 {
 }
 body .carrusel-contenedor .carousel-item {
   position: relative;
+}
+body .carrusel-contenedor .carousel-item img {
+  width: 100%;
+  height: 95vh;
 }
 body .carrusel-contenedor .carousel-item::before {
   content: "";
