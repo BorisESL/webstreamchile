@@ -19,19 +19,6 @@
     }
   }
 
-  .form-txt {
-    display: flex;
-    justify-content: center;
-
-    a {
-      color: $colorsecundario;
-      margin-bottom: 2rem;
-
-      &:hover {
-        color: brown;
-      }
-    }
-  }
 
   .input-gorup {
     display: flex;
