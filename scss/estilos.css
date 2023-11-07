@@ -5,21 +5,9 @@
 }
 
 /*********Inicio********/
-.navbar {
-  background-color: #030f23;
-}
-.navbar .navbar-text,
-.navbar .navbar-brand,
-.navbar .nav-link {
-  color: #ffffff;
-}
-
-.navbar-logo {
-  max-width: 100px;
+img {
+  max-width: 100%;
   height: auto;
-}
-.navbar-logo .navbar-brand {
-  margin-right: -10px;
 }
 
 body {

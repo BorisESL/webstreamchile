@@ -1,22 +1,9 @@
 /*********Inicio********/
 
-.navbar {
-  background-color: #030f23;
-  .navbar-text,
-  .navbar-brand, 
-  .nav-link {
-    color: $colorsecundario;
+img {
+    max-width: 100%;
+    height: auto;
   }
-}
-
-.navbar-logo {
-  max-width: 100px;
-  height: auto;
-  .navbar-brand {
-    margin-right: -10px;
-  }
-  
-}
   
   body {
     background-color: #0f0e0e;
